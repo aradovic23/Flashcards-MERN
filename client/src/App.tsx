@@ -31,6 +31,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Your decks</h1>
       <ul className="decks">
         {decks.map((deck) => (
           <li key={deck._id}>
