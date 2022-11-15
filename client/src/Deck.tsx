@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { createCard } from "./api/createCard";
 import { deleteCard } from "./api/deleteCard";
 import { getDeck } from "./api/getDeck";
@@ -64,6 +64,10 @@ function Deck() {
         />
         <button>Create Card</button>
       </form>
+
+      <span className="home-link">
+        <Link to={"/"}>Go Home</Link>
+      </span>
     </div>
   );
 }

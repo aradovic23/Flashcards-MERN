@@ -31,6 +31,7 @@
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   color: #242424;
   position: relative;
+  padding: 1rem;
 }
 
 .cards li:hover {
@@ -47,4 +48,17 @@
 
 .cards li a {
   color: #242424;
+}
+
+.home-link a {
+  color: paleturquoise;
+  font-weight: bold;
+  border: 1px solid paleturquoise;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.home-link a:hover {
+  color: #85cfcf;
+  border: 1px solid #85cfcf;
 }
